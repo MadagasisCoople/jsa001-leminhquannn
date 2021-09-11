@@ -1,0 +1,121 @@
+.home {
+  -moz-user-select: none !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  -khtml-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  background-image: url(https://wallpaperaccess.com/full/50921.jpg);
+  background-size: cover;
+}
+
+.h {
+  color: white;
+  width: 30%;
+  height: 69%;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  z-index: 2;
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/e/ef/Arena_of_Valor_Logo_2021.png);
+  background-size: cover;
+  animation-name: onghoanglan1;
+  animation-duration: 0.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.a {
+  color: white;
+  width: 30%;
+  height: 69%;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  z-index: 2;
+  background-image: url(https://cf.shopee.com.my/file/c23ae1dc0a0defdfeac0fbf5c17ce9d1);
+  background-size: cover;
+  animation-name: onghoanglan1;
+  animation-duration: 0.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.n {
+  color: white;
+  width: 30%;
+  height: 69%;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  z-index: 2;
+  background-image: url(https://a-static.besthdwallpaper.com/live-action-one-punch-man-hinh-nen-2560x1600-29865_7.jpg);
+  background-size: cover;
+  animation-name: onghoanglan1;
+  animation-duration: 0.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  background-position: center;
+}
+
+@keyframes onghoanglan1 {
+  from {
+    transform: rotate(30deg);
+  }
+  to {
+    transform: rotate(-30deg);
+  }
+}
+.suprise {
+  color: White;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  font-size: 600%;
+}
+
+@keyframes boom {
+  from {
+    top: 90%;
+  }
+  to {
+    top: 40%;
+  }
+}
+@keyframes viu {
+  from {
+    top: 0%;
+    left: 0%;
+  }
+  to {
+    top: 40%;
+    left: 40%;
+  }
+}
+@keyframes bang {
+  from {
+    background-image: url(https://wallpaperaccess.com/full/50921.jpg);
+  }
+  to {
+    background-image: url(https://c8.alamy.com/comp/WW4EHX/grunge-halloween-background-with-blood-splash-space-on-wall-WW4EHX.jpg);
+  }
+}
+.pray {
+  font-weight: 1000;
+  font-size: 250%;
+  position: absolute;
+  top: 90%;
+  left: 25%;
+  width: 50%;
+  height: 5%;
+  text-align: center;
+}
+
+.damn {
+  width: 10px;
+  border-radius: 10px;
+  background-color: White;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
